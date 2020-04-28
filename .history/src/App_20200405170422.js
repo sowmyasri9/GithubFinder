@@ -7,7 +7,6 @@ import User from './components/users/User';
 import Search from './components/users/Search';
 import Alert from './components/layout/Alert';
 import About from './components/pages/About';
-import NotFound from './components/pages/NotFound';
 import axios from 'axios';
 
 import './App.css';
@@ -92,7 +91,6 @@ const App = () => {
             />
 
             <Route exact path='/about' component={About} />
-            <Route component={NotFound} />
             <Route
               exact
               path='/user/:login'
